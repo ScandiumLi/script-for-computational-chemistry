@@ -1,0 +1,29 @@
+;
+;   File TPA.top  was generated
+;   By user: MSI (1000)
+;   On host: node163
+;   At date: Fri. October  5 02:46:53 2023
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       amber2gmx.py, VERSION 3.4.4
+;   Executable:   amber2gmx.py
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     amber2gmx.py
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5          0.83333333  
+
+#include "TPA.itp"
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+; Compound       #mols
+TPA                  125
